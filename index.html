@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nelson Azumah - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content=" WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github"/>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <meta name="description" content="WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github"/>
     <meta name="author" content="Nelson Azumah"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="/styles/larger.css">
 </head>
 <body>
     <header>
-        <img src="images/my_pic.jpeg" alt="my_pic">
-        <h1 class="top-header-name">Nelson Azumah</h1>
+        <img src="/images/my_pic.jpeg" alt="my_pic">
+        <h1 class="top-header-name">Nelson Azumah</h1>        
     </header>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Chamber</a>
-        <a href="#">Site Plan</a>
-        <a href="#">Form</a>
+        <button id="menu-toggle" class="menu-toggle">&#9776;</button>
+        <div id="menu-items" class="menu-items">
+            <!-- Your navigation links here -->
+            <a href="/index.html">Home</a>
+            <a href="chamber-site-plan.html">Chamber</a>
+            <a href="#">Site Plan</a>
+            <a href="#">Form</a>
+        </div>
     </nav>
+<button id="dark-mode-toggle">Switch🌙</button>
     <div>
         <h2>WDD 230: Web Frontend Development</h2>
     </div>
@@ -28,7 +35,7 @@
         <section class="card">
             <h3>Learning Activities</h3>
             <ul>
-                <li>Week 01: <a href=""></a></li>
+                <li>Week 01: <a href="#"></a></li>
             </ul>
         </section>
         <section class="card">
@@ -44,6 +51,7 @@
         <p>&copy;</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="/scripts/getDates.js"></script>
+    <script src="/scripts/hamburger.js"></script>
 </body>
 </html>
