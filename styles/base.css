@@ -93,6 +93,42 @@ nav a:hover {
   }
 }
 
+/* Start Chamber */
+
+/* Color Schema Styles */
+.color-sample {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.primary-color {
+  background-color: #0078D4;
+  color: white;
+}
+
+.secondary-color {
+  background-color: #F0F0F0;
+}
+
+/* Typography Styles */
+.font-sample {
+  font-family: 'Arial', Helvetica, sans-serif;
+  margin: 5px 0;
+}
+
+/* Wireframe Styles */
+.wireframes img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* End Chamber */
+
+
+
 
 
 /* CSS for centering the div */
