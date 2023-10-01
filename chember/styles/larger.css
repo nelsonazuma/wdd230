@@ -1,0 +1,111 @@
+/* Media Query for Min Width 768px */
+@media (min-width: 768px) {
+  /* Header */
+  header {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+  }
+
+  .top-header-name {
+    font-size: 2rem;
+    padding-left: 20px;
+    color: #fff;
+  }
+
+  /* Main section */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  section.card {
+    margin-bottom: 0;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode h2 {
+  color: aliceblue;
+}
+
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode nav {
+  background-color: #222;
+}
+
+.dark-mode nav a {
+  color: #fff;
+}
+
+.dark-mode nav a:hover {
+  color: #bbb;
+}
+
+.dark-mode .menu-toggle {
+  color: #fff;
+}
+
+.dark-mode .menu-items {
+  background-color: #222;
+}
+
+.dark-mode .sidebar {
+  background-color: #222;
+}
+
+/* Bar styles */
+.dark-mode .bar {
+  background-color: aliceblue;
+}
+
+/* Nav menu */
+.dark-mode .nav-menu {
+  background-color: #222;
+}
+
+/* Nav link */
+.dark-mode .nav-link {
+  color: #fff;
+}
+
+.dark-mode .nav-link:hover {
+  color: #bbb;
+}
+
+/* Card section */
+body.dark-mode section.card {
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+body.dark-mode section.card h3 {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Footer */
+body.dark-mode footer {
+  background-color: #111;
+  color: #666;
+}

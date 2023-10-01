@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  color: #333;
+  background-color: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+header,
+nav,
+main,
+footer {
+  padding: 1rem;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  align-items: center;
+  background-color: #0060b1;
+  padding-bottom: 10px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.top-header-name {
+  display: inline;
+  font-size: 1.5rem;
+  justify-content: center;
+  color: #fff;
+}
+
+.header {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 1rem 1.5rem;
+  height: 70px; 
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #222c34;
+}
+
+/* Nav menu styles */
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav-item {
+  margin-left: 2rem; /* Adjust margin for spacing */
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+  text-decoration: none; /* Remove underline */
+}
+
+.nav-link:hover {
+  color: #0060b1;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    left: -100%;
+    top: 12rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1rem auto;
+    position: relative;
+    right: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+/* Image hover effect */
+.local-photos .photo {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.local-photos .photo img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.local-photos .photo:hover {
+  transform: scale(1.1);
+}
+
+/* Image captions */
+.local-photos .photo figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.local-photos .photo:hover figcaption {
+  opacity: 1;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-left: 1px solid #beccde9c;
+  height: 205vh;
+}
+
+/* Sidebar content styles */
+#sidebar-content {
+  text-align: center;
+}
+
+/* Style headings */
+.sidebar h2,
+.sidebar h3 {
+  color: #0078d4;
+}
+
+/* Style lists */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 3px;
+}
+
+#welcomeMessage,
+#frequentVisitMessage,
+#lastVisitedMessage {
+  /* Styles for visit messages */
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#daysVisited {
+  /* Styles for the days visited message */
+  font-weight: bold;
+}
+
+/* CSS for centering the div */
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+/* Card section styles in light mode */
+section.card {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+}
+
+section.card h3 {
+  font-size: 1.5rem;
+  margin: 0px;
+  background-color: #0060b1;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Footer styles in light mode */
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  line-height: 8px;
+  background-color: #222c34;
+  margin: 0px;
+}
