@@ -1,11 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Mobile menu toggle
-  const menuToggle = document.getElementById("menu-toggle");
-  const menuItems = document.getElementById("menu-items");
+  const hamburger = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-menu");
 
-  menuToggle.addEventListener("click", function () {
-    menuItems.classList.toggle("show-menu");
-  });
+  hamburger.addEventListener("click", mobileMenu);
+
+  function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  }
+
+  const navLink = document.querySelectorAll(".nav-link");
+
+  navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+  function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
 
   // Dark mode toggle
   const darkModeToggle = document.getElementById("dark-mode-toggle");

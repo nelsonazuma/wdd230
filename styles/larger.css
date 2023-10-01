@@ -1,30 +1,5 @@
-/* CSS for desktop view */
 @media (min-width: 768px) {
-  /* Desktop menu styles */
-  .menu-toggle {
-    display: none; /* Hide the button on desktop */
-  }
-
-  .menu-items {
-    display: flex;
-    flex-direction: row; /* Display menu items horizontally on desktop */
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: aliceblue;
-    padding: 0;
-  }
-
-  nav {
-    justify-content: flex-start; /* Adjust menu alignment on desktop */
-  }
-
-  nav a {
-    margin: 0 20px; /* Add spacing between desktop menu items */
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  /* Additional styles for desktop view */
+  /* Header */
   header {
     flex-direction: row;
     justify-content: center;
@@ -42,6 +17,7 @@
     color: #fff;
   }
 
+  /* Main section */
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,8 +28,75 @@
     margin-bottom: 0;
   }
 
+  /* Footer */
   footer {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode nav {
+  background-color: #222;
+}
+
+.dark-mode nav a {
+  color: #fff;
+}
+
+.dark-mode nav a:hover {
+  color: #bbb;
+}
+
+.dark-mode .menu-toggle {
+  color: #fff;
+}
+
+.dark-mode .menu-items {
+  background-color: #222;
+}
+
+/* Bar styles */
+.dark-mode .bar {
+  background-color: aliceblue;
+}
+
+/* Nav menu */
+.dark-mode .nav-menu {
+  background-color: #222;
+}
+
+/* Nav link */
+.dark-mode .nav-link {
+  color: #fff;
+}
+
+.dark-mode .nav-link:hover {
+  color: #bbb;
+}
+
+/* Card section */
+body.dark-mode section.card {
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+body.dark-mode section.card h3 {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Footer */
+body.dark-mode footer {
+  background-color: #111;
+  color: #666;
 }

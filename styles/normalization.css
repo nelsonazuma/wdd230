@@ -1,35 +1,27 @@
-body,
-div,
-h1,
-h2,
-h3,
-ul,
-li,
-p,
-button {
-  margin: 0;
-  padding: 0;
+/* Global styles */
+* {
+  box-sizing: border-box;
 }
 
-ul {
-  list-style: none;
-}
-
+/* Body styles */
 body {
   font-family: "Poppins", serif;
   font-size: 16px;
   color: #333;
 }
 
-* {
-  box-sizing: border-box;
-}
-
+/* Image styles */
 img {
   border: 0;
   padding: 0;
 }
 
+/* List styles */
+li {
+  list-style: none;
+}
+
+/* Anchor (link) styles */
 a {
   text-decoration: none;
   color: #0060b1;
@@ -37,6 +29,7 @@ a {
   cursor: pointer;
 }
 
+/* Heading styles */
 h1,
 h2,
 h3 {
@@ -45,6 +38,7 @@ h3 {
   color: #333;
 }
 
+/* Element padding */
 header,
 nav,
 main,
