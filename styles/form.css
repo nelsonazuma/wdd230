@@ -1,0 +1,105 @@
+/* Define CSS variables */
+:root {
+    --primary-color: #007bff;
+    --font-family: Arial, sans-serif;
+    --error-color: #ff0000;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the main content */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the container */
+#right-container {
+    flex: 2;
+    padding: 20px;
+}
+
+#left-container {
+    flex: 1;
+    padding: 20px;
+}
+
+#left-container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+#welcomeMessage {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#welcomeMessage p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    #right-container {
+        flex: 1;
+    }
+
+    #left-container {
+        flex: 1;
+    }
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: var(--error-color);
+    display: none;
+}
