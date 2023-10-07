@@ -92,9 +92,6 @@ body.dark-mode {
 .dark-mode #left-container > h1{
   color: aliceblue;
 }
-.dark-mode .formPage{
-  border: 1px solid #444;
-}
 
 /* Card section */
 body.dark-mode section.card {
