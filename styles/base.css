@@ -98,7 +98,7 @@ section.card {
   margin-bottom: 1rem;
   padding: 1rem;
   border: 1px solid aliceblue;
-  background-color: aliceblue;
+  background-color: rgb(190, 208, 223);
 }
 
 section.card h3 {
