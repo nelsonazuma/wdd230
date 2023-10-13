@@ -27,8 +27,8 @@ async function apiFetch() {
       captionDesc.textContent = data.weather[0].description;
 
       // Set the weather icon
-      const iconCode = data.weather[0].icon;
-      const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+      const icon = data.weather[0].icon;
+      const iconUrl = `https://openweathermap.org/img/wn/${icon}.png`;
       weatherIcon.src = iconUrl;
       weatherIcon.alt = data.weather[0].description;
     } else {
