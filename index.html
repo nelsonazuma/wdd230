@@ -1,93 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nelson Azumah - WDD 230 - Web Frontend Development</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <meta name="description" content=" WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github" />
-    <meta name="author" content="Nelson Azumah" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
-    <link rel="stylesheet" href="styles/normalization.css" />
-    <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/larger.css" />
-  </head>
-  <body>
-    <header>
-      <img src="images/my_pic.jpeg" alt="my_pic" />
-      <h1 class="top-header-name">Nelson Azumah</h1>
-      &nbsp;&nbsp;&nbsp;
-      <button id="dark-mode-toggle">Switch🌙</button>
-    </header>
-    <nav class="navbar">
-      <ul class="nav-menu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="chember/discover.html" class="nav-link">Chamber</a>
-        </li>
-        <li class="nav-item">
-          <a href="week01/chamber-site-plan.html" class="nav-link">Site Plan</a>
-        </li>
-        <li class="nav-item">
-          <a href="form.html" class="nav-link">Form</a>
-        </li>
-      </ul>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nelson Azumah - WDD 230 - Web Frontend Development</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+  <meta name="description" content=" WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github" />
+  <meta name="author" content="Nelson Azumah" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+  <link rel="stylesheet" href="styles/normalization.css" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images/my_pic.jpeg" alt="my_pic" />
+    <h1 class="top-header-name">Nelson Azumah</h1>
+    &nbsp;&nbsp;&nbsp;
+    <button id="dark-mode-toggle">Switch🌙</button>
+  </header>
+  <nav class="navbar">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="chember/discover.html" class="nav-link">Chamber</a>
+      </li>
+      <li class="nav-item">
+        <a href="week01/chamber-site-plan.html" class="nav-link">Site Plan</a>
+      </li>
+      <li class="nav-item">
+        <a href="form.html" class="nav-link">Form</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+  <section class="heroImg">
+    <picture>
+      <source srcset="images/accra_ghana_temple.webp" media="(max-width: 400px)" />
+      <img srcset="images/accra_ghana_temple.webp" alt="Favorite Temple" />
+    </picture>
+    <h2>WDD 230: Web Frontend Development</h2>
+  </section>
+  <main>
+    <section class="card">
+      <h3>Learning Activities</h3>
+      <div id="links-container">
+        <!-- Dynamic Links -->
       </div>
-    </nav>
-    <section class="heroImg">
-      <picture>
-        <source srcset="images/accra_ghana_temple.webp" media="(max-width: 400px)" />
-        <img srcset="images/accra_ghana_temple.webp" alt="Favorite Temple" />
-      </picture>
-      <h2>WDD 230: Web Frontend Development</h2>
     </section>
-    <main>
-      <section class="card">
-        <h3>Learning Activities</h3>
-        <ul>
-          <li>
-            Week 01: <a href="week01/chamber-site-plan.html">Chamber Site Plan</a>
-          </li>
-          <li>Week 02: The Chamber Home Page</li>
-          <li>Week 03: <a href="index.html">Home Page Responsive Images</a> | 
-            <a href="chember/discover.html">The Chamber Discover Pagen</a> </li>
-          <li>Week 04: <a href="https://codepen.io/G-MANX/pen/vYvbyOx">CSS Pseudo-Classes</a> 
-            | <a href="week04/images/Css Combinators.JPG">CSS Combinators</a> | 
-            <a href="week04/tablebuild.html">HTML Tables</a> | <a href="chember/join.html">The Chamber Join Page</a></li>
-            <li>Week 05: <a href="https://codepen.io/G-MANX/pen/BavbxBa">CSS Pseudo-elements</a> | 
-              <a href="./week05/new-ward-members.json">JSON</a> | <a href="./week05/prophets.html">The Fetch API</a> | 
-              <a href="./week05/weather.html">Consuming a Weather API</a></li> 
-        </ul>
-      </section>
-      <section class="card">
-        <h3>Information</h3>
-        <span id="weather-info"></span>
-        <ul>
-          <li ><strong class="visit-counter"></strong></li>
-        </ul>
-      </section>
-    </main>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15883.983610957172!2d-0.1936826!3d5.5676209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a7bc5614509%3A0x956877901c6604e1!2sAccra%20Ghana%20Temple!5e0!3m2!1sen!2sng!4v1696110218697!5m2!1sen!2sng"
-      width="100%"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-    <footer>
-      <p>&copy;</p>
-      <p id="lastModified"></p>
-    </footer>
-    <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/hamburger.js" defer></script>
-    <script src="scripts/pagecounter.js" defer></script>
-  </body>
+    <section class="card">
+      <h3>Information</h3>
+      <span id="weather-info"></span>
+      <ul>
+        <li><strong class="visit-counter"></strong></li>
+      </ul>
+    </section>
+  </main>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15883.983610957172!2d-0.1936826!3d5.5676209!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a7bc5614509%3A0x956877901c6604e1!2sAccra%20Ghana%20Temple!5e0!3m2!1sen!2sng!4v1696110218697!5m2!1sen!2sng"
+    width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <footer>
+    <p>&copy;</p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="scripts/links.js"></script>
+  <script src="scripts/getDates.js" defer></script>
+  <script src="scripts/hamburger.js" defer></script>
+  <script src="scripts/pagecounter.js" defer></script>
+</body>
+
 </html>

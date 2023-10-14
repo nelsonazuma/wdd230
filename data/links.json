@@ -1,0 +1,63 @@
+{
+    "weeks": [{
+            "week": "Week01",
+            "links": [{
+                    "url": "week01/index.html",
+                    "title": "index"
+                },
+                {
+                    "url": "week01/index.html",
+                    "title": "index.html"
+                }
+            ]
+        },
+        {
+            "week": "Week02",
+            "links": [{
+                    "url": "week02/index.html",
+                    "title": "index.html"
+                },
+                {
+                    "url": "week02/index.html",
+                    "title": "index.html"
+                }
+            ]
+        },
+        {
+            "week": "Week03",
+            "links": [{
+                    "url": "week03/index.html",
+                    "title": "index.html"
+                },
+                {
+                    "url": "week03/index.html",
+                    "title": "index.html"
+                }
+            ]
+        },
+        {
+            "week": "Week04",
+            "links": [{
+                    "url": "week04/tablebuild.html",
+                    "title": "table"
+                }
+            ]
+        },
+        {
+            "week": "Week05",
+            "links": [{
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
