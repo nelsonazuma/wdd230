@@ -8,13 +8,13 @@ async function getLinks() {
 }
 
 function displayLinks(weeks) {
-    // Get the existing HTML element where we will insert the dynamic links
+    // Get the existing HTML element for dynamic links
     const linksContainer = document.querySelector("#links-container");
 
-    // Create a new empty element to hold the dynamic links
+    // Creates new empty element to hold the dynamic links
     const linksList = document.createElement("ul");
 
-    // Loop through each week and create a link for each activity
+    // Loop through each week
     for (const week of weeks) {
         const weekHeading = document.createElement("h3");
         weekHeading.textContent = week.week;
@@ -37,5 +37,5 @@ function displayLinks(weeks) {
     linksContainer.appendChild(linksList);
 }
 
-// Get the links data
+// Display links data
 getLinks();
