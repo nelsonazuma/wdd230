@@ -101,6 +101,20 @@ section.card {
   background-color: rgb(190, 208, 223);
 }
 
+.directory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.directory-card {
+  width: 25%;
+  margin: 1rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  transition: all 0
+}
+
 section.card h3 {
   font-size: 1.5rem;
   margin: 0;

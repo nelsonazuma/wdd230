@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Accra Chamber of Commerce and Industry",
+      "address": "26 Osu Link Rd, Accra, Ghana",
+      "phone": "+233 30 324 000",
+      "website": "https://www.accrachamber.org/",
+      "image": "accra-chamber-of-commerce-and-industry.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Ghana Chamber of Mines",
+      "address": "8th Floor, Dzorwulu Junction, House No. 4, Accra, Ghana",
+      "phone": "+233 30 270 0014",
+      "website": "https://www.ghana-chamber-of-mines.org/",
+      "image": "ghana-chamber-of-mines.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Ghana Association of Bankers",
+      "address": "13 Liberty Ave, Accra, Ghana",
+      "phone": "+233 30 266 7563",
+      "website": "https://www.gab-gh.org/",
+      "image": "ghana-association-of-bankers.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Ghana National Chamber of Commerce and Industry",
+      "address": "Avenue Rd, Accra, Ghana",
+      "phone": "+233 30 266 2726",
+      "website": "https://www.gncci.com.gh/",
+      "image": "ghana-national-chamber-of-commerce-and-industry.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Association of Ghana Industries",
+      "address": "AGI House, 180, Liberation Avenue, Accra, Ghana",
+      "phone": "+233 30 266 0605",
+      "website": "https://www.agi.org.gh/",
+      "image": "association-of-ghana-industries.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Ghana Chamber of Telecommunications",
+      "address": "1st Floor, 35 Independence Avenue, Accra, Ghana",
+      "phone": "+233 30 266 1866",
+      "website": "https://www.gct.org.gh/",
+      "image": "ghana-chamber-of-telecommunications.jpg",
+      "membershipLevel": "Platinum"
+    },
+    {
+      "name": "Ghana Chamber of Commerce, USA",
+      "address": "19 East 47th Street, Suite 1600, New York, NY 10017, USA",
+      "phone": "+1 (212) 838-4687",
+      "website": "https://www.ghanachamberusa.org/",
+      "image": "ghana-chamber-of-commerce-usa.jpg",
+      "membershipLevel": "Platinum"
+    }
+  ]
+  
