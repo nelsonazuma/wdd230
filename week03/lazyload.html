@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lazy Loading Images</title>
+  <link rel="stylesheet" href="styles/base.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Lazy Loading Images</h1>
+  </header>
+  <main>
+    <img class="lazyload" src="images/accra.jpg" data-src="accra.jpg" alt="accra" />
+    <img class="lazyload" src="images/cityA.jpg" data-src="cityA.jpg" alt="cityA" />
+    <img class="lazyload" src="images/cityB.jpg" data-src="cityB.jpg" alt="cityB" />
+    <img class="lazyload" src="images/National Museum.jpg" data-src="National Museum.jpg" alt="National Museum" />
+    <img class="lazyload" src="images/Osu Castle.jpg" data-src="Osu Castle.jpg" alt="Osu Castle" />
+    <img class="lazyload" src="images/The Independence Arch.jpg" data-src="Independence.jpg" alt="Independence" />
+  </main>
+  <footer>
+    <p>Last modified: <script>document.write(new Date().toLocaleDateString());</script></p>
+    <script src="scripts/script.js"></script>
+  </footer>
+</body>
+</html>

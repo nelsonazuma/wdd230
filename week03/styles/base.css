@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  .lazyload {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    animation: fade-in 1s;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

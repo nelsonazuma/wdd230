@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Images: srcset</title>
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/responsive-images.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Responsive Images: srcset</h1>
+  </header>
+  <main>
+    <div class="hero">
+      <picture>
+        <source srcset="images/accra-ghana-templeSmall.jpeg" media="(width: 500px)">
+        <source srcset="images/accra-ghana-templeMedium.jpeg" media="(width: 1000px)" >
+        <img src="images/accra-ghana-templeLarge.jpg" alt="A photo of the Accra Ghana Temple" 
+        width="1500" height="750">
+      </picture>
+    </div>
+  </main>  
+  <footer>
+    &copy; 2023 Temple Responsive Images
+  </footer>
+</body>
+</html>
