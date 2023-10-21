@@ -91,10 +91,93 @@ header img {
   color: #0060b1;
 }
 
+.hero {
+  background-position: center;
+  background-size: cover;
+  background-color: antiquewhite;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-top: 50px;
+}
+
+.call-to-action a {
+  font-size: 1.6rem;
+  background-color: #0060b1;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.current-events {
+  margin-bottom: 1rem;
+}
+
+.current-events h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.current-events ul {
+  list-style: none;
+  padding: 0;
+}
+
+.current-events ul li {
+  margin-bottom: 0.5rem;
+}
+
+.weather-card {
+  margin-bottom: 1rem;
+}
+
+.weather-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.company-spotlights {
+  margin-bottom: 1rem;
+  width: 720px;
+  margin: auto;
+}
+
+.company-spotlights h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.company-spotlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-spotlights ul li {
+  margin-bottom: 0.5rem;
+}
+
+.company-spotlights img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.weather-info{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
   body {
     font-size: 16px;
+    max-width: 768px;
+    box-sizing: border-box;
   }
 
   .nav-menu {
@@ -134,6 +217,52 @@ header img {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+   /* Hero section */
+   .hero img{
+    width: 500px;
+  }
+
+  /* Call to action section */
+  .call-to-action {
+    padding-top: 40px;
+  }
+
+  .call-to-action a {
+    font-size: 1.4rem;
+  }
+
+  /* Current events section */
+  .current-events h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Weather card section */
+  .weather-card h3 {
+    font-size: 1.4rem;
+  }
+
+  /* Company spotlights section */
+  .company-spotlights h2 {
+    font-size: 1.4rem;
+  }
+
+  .company-spotlights img {
+    width: 50%;
+  }
+
+  .company-spotlights p {
+    width: 10%;
+  }
+
+  .chamber-main{
+  
+  }
+
+  /* Weather info section */
+  .weather-info {
+    max-width: 90%;
   }
 }
 
