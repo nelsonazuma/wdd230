@@ -1,50 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
-  }
-  
-  header, footer {
-    text-align: center;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
-  header h1{
-    text-align: center;
-    font-weight: 900;
-  }
-  
+header, footer {
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 1080px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
   main {
-    display: flex;
     justify-content: center;
-    max-width: 1080px;
-    margin: auto;
   }
-  
-  #cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: aliceblue;
-  }
-  
-  .card {
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+}
 
-  .card h2 {
-    text-align: center;
-    color: #0060b1;
-    font-weight: 700;
-  }
-  
-  .card p {
-    text-align: center;
-  }
-  
-  .card img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-  }
-  
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.card h2 {
+  text-align: center;
+  color: #0060b1;
+  font-weight: 700;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
