@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nelson Azumah - WDD 230 - Web Frontend Development</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-  <meta name="description" content=" WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github" />
+  <meta name="description" content="WDD 230 - Web Frontend Development by Nelson Azumah, hosted on Github" />
   <meta name="author" content="Nelson Azumah" />
   <meta property="og:title" content="Nelson Azumah - WDD 230 - Web Frontend Development" />
   <meta property="og:type" content="website" />
@@ -15,17 +15,20 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
   <link rel="stylesheet" href="styles/normalization.css" />
   <link rel="stylesheet" href="styles/base.css" />
-  <link rel="stylesheet" href="styles/larger.css" />
 </head>
 
 <body>
   <header>
     <img src="images/my_pic.jpeg" alt="my_pic" />
     <h1 class="top-header-name">Nelson Azumah</h1>
-    &nbsp;&nbsp;&nbsp;
     <button id="dark-mode-toggle">Switch🌙</button>
   </header>
   <nav class="navbar">
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
     <ul class="nav-menu">
       <li class="nav-item">
         <a href="../index.html" class="nav-link">Home</a>
@@ -40,11 +43,6 @@
         <a href="../form.html" class="nav-link">Form</a>
       </li>
     </ul>
-    <div class="hamburger">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
   </nav>
   <div class="chamber-main">
     <section class="hero">
@@ -68,25 +66,31 @@
     <section class="company-spotlights">
       <h2>Company Spotlights</h2>
       <ul>
-        <img src="images/MTN-Ghana.jpeg" alt="MTN Ghana" />
-        <li><strong>MTN Ghana:</strong> MTN Ghana is the leading telecommunications company in Ghana, 
-          with over 25 million subscribers. They offer a wide range of services, 
-          including mobile voice and data, mobile money, and fixed broadband. 
-          Their advertisement could highlight their latest products and services, 
-          or their commitment to providing quality and affordable telecommunications 
-          services to Ghanaians.</li>
+        <li>
+          <img src="images/MTN-Ghana.jpeg" alt="MTN Ghana" />
+          <strong>MTN Ghana:</strong> MTN Ghana is the leading telecommunications company in Ghana,
+          with over 25 million subscribers. They offer a wide range of services,
+          including mobile voice and data, mobile money, and fixed broadband.
+          Their advertisement could highlight their latest products and services,
+          or their commitment to providing quality and affordable telecommunications
+          services to Ghanaians.
+        </li>
+        <li>
           <img src="images/GCB Bank.jpg" alt="GCB Bank" />
-        <li><strong>GCB Bank:</strong> GCB Bank is the largest bank in Ghana, with over 160 branches and 
-          ATMs across the country. They offer a wide range of banking products and services, 
-          including personal and business accounts, loans, and investments. 
-          Their advertisement could highlight their financial strength and stability, 
-          or their wide range of products and services.</li>
+          <strong>GCB Bank:</strong> GCB Bank is the largest bank in Ghana, with over 160 branches and
+          ATMs across the country. They offer a wide range of banking products and services,
+          including personal and business accounts, loans, and investments.
+          Their advertisement could highlight their financial strength and stability,
+          or their wide range of products and services.
+        </li>
+        <li>
           <img src="images/AngloGold Ashanti.jpg" alt="AngloGold Ashanti" />
-        <li><strong>AngloGold Ashanti:</strong> AngloGold Ashanti is a global gold mining company with 
-          operations in Ghana, South Africa, Mali, Guinea, and Tanzania. They are the largest 
-          gold producer in Ghana, and contribute significantly to the country's economy. 
-          Their advertisement could highlight their commitment to sustainable mining and 
-          their economic impact on Ghana.</li>
+          <strong>AngloGold Ashanti:</strong> AngloGold Ashanti is a global gold mining company with
+          operations in Ghana, South Africa, Mali, Guinea, and Tanzania. They are the largest
+          gold producer in Ghana and contribute significantly to the country's economy.
+          Their advertisement could highlight their commitment to sustainable mining and
+          their economic impact on Ghana.
+        </li>
       </ul>
     </section>
   </div>
